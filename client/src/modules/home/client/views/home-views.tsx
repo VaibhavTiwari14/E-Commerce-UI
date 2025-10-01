@@ -3,11 +3,10 @@ import AutoCarousel from "@/modules/home/client/components/AutoCorousal";
 const HomeView = () => {
   const images = [
     "/banners/0.jpg",
-    "/banners/1.jpg",
-    "/banners/2.jpg",
-    "/banners/3.jpg",
-    "/banners/4.jpg",
-    "/banners/5.jpg",
+    "/banners/1-pica.png",
+    "/banners/2-pica.png",
+    "/banners/3-pica.png",
+    "/banners/4-pica.png",
   ];
 
   return (

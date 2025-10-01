@@ -5,7 +5,7 @@ import Searchbar from "@/modules/navbar/client/components/Searchbar";
 
 const NavbarView = () => {
   return (
-    <nav className="w-full flex items-center flex-nowrap py-3 px-4 md:px-8 bg-white justify-between">
+    <nav className="w-full flex items-center flex-nowrap py-3 px-4 md:px-8 bg-white justify-between shadow-md">
       <Link href="/" className="flex items-center gap-2 flex-shrink-0">
         <Image
           src="/logo-black.png"

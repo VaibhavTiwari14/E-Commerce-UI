@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const FooterView = () => {
   return (
-    <div className="mt-16 flex flex-col items-center gap-8 md:gap-0 md:flex-row md:items-start md:justify-between bg-black p-8 rounded-lg">
+    <div className="mt-16 flex flex-col items-center gap-8 md:gap-0 md:flex-row md:items-start md:justify-between bg-black p-8 rounded-t-lg">
       <div className="flex flex-col gap-4 items-center md:items-start">
         <Link href="/" className="flex items-center gap-2">
           <Image
