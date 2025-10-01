@@ -1,4 +1,6 @@
 import AutoCarousel from "@/modules/home/client/components/AutoCorousal";
+import CategoriesNav from "../components/CategoriesNav";
+import ProductList from "../components/ProductList";
 
 const HomeView = () => {
   const images = [
@@ -13,6 +15,7 @@ const HomeView = () => {
     <div>
       <div className="relative aspect-[3/1] mb-12">
         <AutoCarousel  images={images} interval={2000} />
+        <ProductList/>
       </div>
     </div>
   );

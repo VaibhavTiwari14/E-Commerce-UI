@@ -76,7 +76,7 @@ const AutoCarousel: React.FC<CarouselProps> = ({
   };
 
   return (
-    <div className={`w-full ${className}`}>
+    <div className={`w-full ${className} mb-8`}>
       <div
         className={`relative w-full ${height} rounded-xl overflow-hidden shadow-2xl group`}
         onMouseEnter={() => setIsHovered(true)}

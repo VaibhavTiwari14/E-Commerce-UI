@@ -1,4 +1,6 @@
 import { z } from "zod";
+import type { FC, SVGProps } from "react";
+
 
 export type ProductType = {
   id: string | number;
@@ -62,3 +64,14 @@ export type CartStoreActionsType = {
   removeFromCart: (product: CartItemType) => void;
   clearCart: () => void;
 };
+
+
+type IconType = FC<SVGProps<SVGSVGElement>>;
+
+type Category = {
+  name: string;
+  icon: IconType;
+  slug: string;
+};
+
+export type Categories = Category[];
